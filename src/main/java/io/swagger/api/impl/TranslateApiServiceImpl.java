@@ -39,7 +39,7 @@ public class TranslateApiServiceImpl extends TranslateApiService {
         OkHttpClient client = new OkHttpClient();
 
         Request request = new Request.Builder()
-                .url("https://117b37cf.ngrok.io/api/yuuvis_sentiment_analysis")
+                .url("https://4680819d.ngrok.io/api/yuuvis_sentiment_analysis")
                 .post(RequestBody.create(MediaType.parse("application/json"), String.valueOf(objectNode)))
                 .build();
 
